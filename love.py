@@ -3,7 +3,7 @@ import turtle
 t = turtle.Turtle()
 s= turtle.Screen()
 
-s.bgcolor("black")
+s.bgcolor("pink")
 t.hideturtle()
 t.goto(0, -10)
 
@@ -19,9 +19,21 @@ t.forward(178)
 t.end_fill()
 
 t.penup()
-t.goto(-128, 150)
+t.goto(-160, 135)
 t.pendown()
 t.color("white")
-t.write("I Love You", font=("Arial", 18, "bold"))
+t.write("JANGAN BADMOOD YAA", font=("Verdana", 18, "bold"))
+
+t.penup()
+t.goto(-100, 165)
+t.pendown()
+t.color("white")
+t.write("PUPUT CANTIKK", font=("Verdana", 18, "bold"))
+
+t.penup()
+t.goto(-25, 100)
+t.pendown()
+t.color("white")
+t.write("ILY❤️", font=("Verdana", 18, "bold"))
 
 turtle.done()
